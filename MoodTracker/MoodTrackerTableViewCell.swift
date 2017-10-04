@@ -6,4 +6,12 @@
 //  Copyright © 2017 Tony Cioara. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class MoodTrackerTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var friendNameLabel: UILabel!
+    @IBOutlet weak var moodLabel: UILabel!
+    
+}
+

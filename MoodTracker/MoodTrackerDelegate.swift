@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+protocol moodTrackerDelegate {
+    
+    func passPerson(person: Friend)
+    
+}
